@@ -5,12 +5,12 @@ if (-not $ProgramData) {
     $ProgramData = "C:\ProgramData"
 }
 
-$BaseDir = Join-Path $ProgramData "FeatherPanel"
+$BaseDir = Join-Path $ProgramData "OrbitPanel"
 $LogDir = Join-Path $BaseDir "logs"
 $DataDir = Join-Path $BaseDir "volumes"
 $ArchiveDir = Join-Path $BaseDir "archives"
 $BackupDir = Join-Path $BaseDir "backups"
-$TmpDir = Join-Path $env:TEMP "FeatherPanel"
+$TmpDir = Join-Path $env:TEMP "FeatherWings"
 
 Write-Host "Installing FeatherWings directory structure..." -ForegroundColor Cyan
 
